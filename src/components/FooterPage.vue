@@ -60,12 +60,12 @@
   </footer>
 </template>
 
-<script>
+<!-- <script>
 export default {
   name: "FooterPage",
   components: {},
 };
-</script>
+</script> -->
 
 <style scoped>
 footer {

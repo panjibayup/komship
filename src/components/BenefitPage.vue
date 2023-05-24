@@ -66,91 +66,91 @@
           <button class="btn btn-sm btn-menu" @click="benefitSap()">SAP</button>
         </div>
         <div v-if="benefitJneChecked === true" class="jne">
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead">JNE</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">Reg 25%</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
         </div>
         <div v-else-if="benefitSicepatChecked === true" class="sicepat">
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead">Sicepat</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">
               <li class="list-benefit">Reg 30%</li>
               <li class="list-benefit">Cargo mulai dari 2.500/kg + diskon 5% (min. 10Kg)</li>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
         </div>
         <div v-else-if="benefitIdChecked === true" class="idexpress">
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead">ID Express</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">
               <li class="list-benefit">Reg 25%</li>
               <li class="list-benefit">"(>1/2 kg)1/2 Kg bayar 1/2-nya* +diskon 15%"</li>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
         </div>
         <div v-else class="sap">
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head" style="font-size: 16px; font-weight: 700">Benefit</div>
             <div class="col-6 p-3 subhead">SAP</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Diskon Ongkir</div>
             <div class="col-6 p-3">Reg 35%</div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya COD</div>
             <div class="col-6 p-3">
               2.8%
               <div>(PPN ditanggung Komship)</div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500">
             <div class="col-6 p-3 head">Biaya Retur</div>
             <div class="col-6 p-3">Gratis se-lndonesia*</div>
           </div>
@@ -217,7 +217,7 @@ export default {
 }
 .benefit-head {
   position: relative;
-  margin: 20px 0px 0;
+  margin: -30px 0px 0;
   padding: 20px;
   border-radius: 30px;
   border: none;

@@ -101,25 +101,76 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item"><div class="accordion-header"><button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-7" style="overflow-anchor: none;"><div class="item-header">
-                Apakah Komship bisa di gunakan bagi yang berjualan offline?
-              </div></button></div> <div id="accordion-7" class="accordion-collapse collapse" style="display:none"><div class="accordion-body"><p>
-                Sangat Bisa. Selagi masih dalam ruang lingkup pengiriman paket orderan.
-              </p></div></div></div> <div class="accordion-item"><div class="accordion-header"><button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-8" style="overflow-anchor: none;"><div class="item-header">
-                Bisnis model apa sajakah yang cocok menggunakan Komship?
-              </div></button></div> <div id="accordion-8" class="accordion-collapse collapse" style="display:none"><div class="accordion-body"><p>
-                Komship sangat cocok untuk kamu yang memiliki model bisnis seperti distributor, dropshipper, reseller, atau produsen.
-              </p></div></div></div> <div class="accordion-item"><div class="accordion-header"><button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-9" style="overflow-anchor: none;"><div class="item-header">
-                Jika sudah bekerja sama dengan ekspedisi apakah bisa menggunakan Komship?
-              </div></button></div> <div id="accordion-9" class="accordion-collapse collapse" style="display:none"><div class="accordion-body"><p>
-                Sangat Bisa. Yang terpenting kamu tidak mengirimkan paket yang sama antara dengan Komship dan Ekspedisi.
-              </p></div></div></div> <div class="accordion-item"><div class="accordion-header"><button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-10" style="overflow-anchor: none;"><div class="item-header">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-7" style="overflow-anchor: none;">
+              <div class="item-header">Apakah Komship bisa di gunakan bagi yang berjualan offline?</div>
+            </button>
+          </h2>
+          <div id="accordion-7" class="accordion-collapse collapse" style="display:none">
+            <div class="accordion-body">
+              <p>Sangat Bisa. Selagi masih dalam ruang lingkup pengiriman paket orderan.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-8" style="overflow-anchor: none;">
+              <div class="item-header">Bisnis model apa sajakah yang cocok menggunakan Komship?</div>
+            </button>
+          </h2>
+          <div id="accordion-8" class="accordion-collapse collapse" style="display:none">
+            <div class="accordion-body">
+              <p>Komship sangat cocok untuk kamu yang memiliki model bisnis seperti distributor, dropshipper, reseller, atau produsen.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-9" style="overflow-anchor: none;">
+              <div class="item-header">Jika sudah bekerja sama dengan ekspedisi apakah bisa menggunakan Komship?
+              </div>
+            </button>
+          </h2>
+          <div id="accordion-9" class="accordion-collapse collapse" style="display:none">
+            <div class="accordion-body">
+              <p>Sangat Bisa. Yang terpenting kamu tidak mengirimkan paket yang sama antara dengan Komship dan Ekspedisi.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-10" style="overflow-anchor: none;">
+              <div class="item-header">
                 Berapa biaya penanganan COD di Komship?
-              </div></button></div> <div id="accordion-10" class="accordion-collapse collapse" style="display:none"><div class="accordion-body"><p>Biaya penanganan COD di Komship sebesar 2.8% dari total harga+ongkir.</p> <div>Contoh Simulasi:</div> <div>Total harga+ongkir yang dibayarkan oleh customer sebesar 250.000 rupiah, 2.8% dari 250.000 adalah 7.000 rupiah. Maka, biaya penanganan COD yang harus dibayarkan oleh customer sebesar 7.000 rupiah.</div></div></div></div> <div class="accordion-item"><div class="accordion-header"><button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-11" style="overflow-anchor: none;"><div class="item-header">
-                Dana COD akan cair maksimal berapa hari setelah barang diterima pembeli?
-              </div></button></div> <div id="accordion-11" class="accordion-collapse collapse" style="display:none"><div class="accordion-body"><p>
-                Dana COD dapat langsung dicairkan setelah pesanan selesai.
-              </p></div></div></div></div>
+              </div>
+            </button>
+          </h2>
+          <div id="accordion-10" class="accordion-collapse collapse" style="display:none">
+            <div class="accordion-body">
+              <p>Biaya penanganan COD di Komship sebesar 2.8% dari total harga+ongkir.</p>
+              <div>Contoh Simulasi:</div>
+              <div>Total harga+ongkir yang dibayarkan oleh customer sebesar 250.000 rupiah, 2.8% dari 250.000 adalah 7.000 rupiah. Maka, biaya penanganan COD yang harus dibayarkan oleh customer sebesar 7.000 rupiah.</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" aria-expanded="false" aria-controls="accordion-11" style="overflow-anchor: none;">
+              <div class="item-header">Dana COD akan cair maksimal berapa hari setelah barang diterima pembeli?</div>
+            </button>
+          </h2>
+          <div id="accordion-11" class="accordion-collapse collapse" style="display:none">
+            <div class="accordion-body">
+              <p>Dana COD dapat langsung dicairkan setelah pesanan selesai.</p>
+            </div>
+          </div>
+        </div>
+      </div>
         <div class="FAQ-button">
           <button class="accordion-button not-collapsed" type="button" data-bs-toggle="collapse" style="width: 190px; background-color: rgb(249, 249, 249); overflow-anchor: none;" aria-expanded="false" aria-controls="faq-button" data-bs-target="#faq-button">Lihat FAQ lainnya</button>
         </div>

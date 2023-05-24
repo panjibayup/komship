@@ -79,4 +79,17 @@ export default {
     max-width: 540px;
   }
 } */
+@media only screen and (max-width: 540px) {
+  .about .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+  }
+}
+.description-desktop {
+  justify-content: center;
+}
+.image img {
+  width: 90%;
+}
 </style>

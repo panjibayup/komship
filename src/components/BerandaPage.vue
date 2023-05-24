@@ -4,7 +4,10 @@
       <div class="col-md-6 mt-5 text-start">
         <h2 class="title">Juaranya Platform Kirim Barang, Mudah dan Murah dengan <span style="color: #f95031">Komship</span></h2>
         <p class="description">Dapatkan diskon ongkir mulai dari 25% dan GRATIS biaya retur se-Indonesia! Pelajari lebih lanjut untuk dapat tawaran menarik</p>
-        <div class="peminat"><span class="number">13000+</span> <span class="label align-items-center">Pebisnis online sudah bergabung dengan Komship</span></div>
+        <div class="d-flex peminat">
+          <h1 class="number">13000+</h1>
+          <p class="label align-items-center">Pebisnis online sudah bergabung dengan Komship</p>
+        </div>
         <div class="button-komponen">
           <a>
             <button type="button" class="btn btn-1 btn-primary" style="font-weight: 600">Mulai Sekarang</button>

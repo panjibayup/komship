@@ -1,133 +1,392 @@
 <template>
   <section class="testimoni" style="padding-bottom: 50px">
-    <h3 class="title"><span style="color: #f95031">Komship</span> telah dipercaya oleh Pebisnis dan UMKM di Indonesia</h3>
+    <h3 class="title" data-aos="fade up" data-aos-duration="1500"><span style="color: #f95031">Komship</span> telah dipercaya oleh Pebisnis dan UMKM di Indonesia</h3>
+    <div class="desktop">
+      <swiper :slides-per-view="3" :space-between="10" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide style="margin-left: 20px">
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-4.dcc0b30.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diky Arliansyah</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship sangat membantu untuk Umkm, merasa terbantu dengan adanya komship, membuat proses input order jadi lebih mudah, apalagi dengan fitur2 komship yg simpel dan mudah dipahami + tentunya dengan cashback 25% 😁
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-6.b41dc9e.svg" alt="profile" />
+                      </div>
+                      <span class="name">Agus David Saputra</span>
+                    </div>
+                    <div class="content text-start">Baru ada platform yang sekeren ini dan sangat menguntungkan bagi kami karena lebih murah biaya CODnya dan cashback super besar, uang bisa cair tiap hari dan mudah dipakainya.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-5.4144a33.svg" alt="profile" />
+                      </div>
+                      <span class="name">Eko sulistiyono</span>
+                    </div>
+                    <div class="content text-start">
+                      Alhamdulilah lancar , fiturnya mudah di pahami juga. Apalagi, Kalau ada kendala team Komship siap membantu dan fast respon. Pemakaiannya juga simple, beda sama Aplikasi serupa yang lain.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-1.d5e2c77.svg" alt="profile" />
+                      </div>
+                      <span class="name">Mansyur</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship bagus banget konsepnya, menciptakan kemudahan penjual untuk mengirim barang, apalagi ada fitur COD tanpa harus daftar ribet ke jasa kirim, UI nya juga mudah dipahami untuk pemula
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-2.db7627c.svg" alt="profile" />
+                      </div>
+                      <span class="name">Nursiswanto</span>
+                    </div>
+                    <div class="content text-start">Komship Mantap👍👍👍 Cashbacknya besar, kalau bisa ditingkatkan lagi. Pencairan setiap hari bikin cash flow aman</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-3.021e242.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diki Moh.Ghani</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship lebih easy user, fitur-fiturnya juga bagus, kita bisa tahu secara otomatis CS yang jualannya paling kenceng dan yang paling kurang kenceng.Selain itu juga ada fitur keuangannya jadi sangat membantu banget. Dan
+                      jika ada kendala Tim Supportnya fast respon
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        ...
+      </swiper>
+    </div>
 
-    <swiper :slides-per-view="3" :space-between="10" @swiper="onSwiper" @slideChange="onSlideChange">
-      <swiper-slide style="margin-left: 20px">
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-4.dcc0b30.svg" alt="profile" />
+    <div class="tablet">
+      <swiper :slides-per-view="2" :space-between="10" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide style="margin-left: 20px">
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-4.dcc0b30.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diky Arliansyah</span>
                     </div>
-                    <span class="name">Diky Arliansyah</span>
-                  </div>
-                  <div class="content text-start">
-                    Komship sangat membantu untuk Umkm, merasa terbantu dengan adanya komship, membuat proses input order jadi lebih mudah, apalagi dengan fitur2 komship yg simpel dan mudah dipahami + tentunya dengan cashback 25% 😁
+                    <div class="content text-start">
+                      Komship sangat membantu untuk Umkm, merasa terbantu dengan adanya komship, membuat proses input order jadi lebih mudah, apalagi dengan fitur2 komship yg simpel dan mudah dipahami + tentunya dengan cashback 25% 😁
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-6.b41dc9e.svg" alt="profile" />
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-6.b41dc9e.svg" alt="profile" />
+                      </div>
+                      <span class="name">Agus David Saputra</span>
                     </div>
-                    <span class="name">Agus David Saputra</span>
-                  </div>
-                  <div class="content text-start">Baru ada platform yang sekeren ini dan sangat menguntungkan bagi kami karena lebih murah biaya CODnya dan cashback super besar, uang bisa cair tiap hari dan mudah dipakainya.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-5.4144a33.svg" alt="profile" />
-                    </div>
-                    <span class="name">Eko sulistiyono</span>
-                  </div>
-                  <div class="content text-start">
-                    Alhamdulilah lancar , fiturnya mudah di pahami juga. Apalagi, Kalau ada kendala team Komship siap membantu dan fast respon. Pemakaiannya juga simple, beda sama Aplikasi serupa yang lain.
+                    <div class="content text-start">Baru ada platform yang sekeren ini dan sangat menguntungkan bagi kami karena lebih murah biaya CODnya dan cashback super besar, uang bisa cair tiap hari dan mudah dipakainya.</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-1.d5e2c77.svg" alt="profile" />
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-5.4144a33.svg" alt="profile" />
+                      </div>
+                      <span class="name">Eko sulistiyono</span>
                     </div>
-                    <span class="name">Mansyur</span>
-                  </div>
-                  <div class="content text-start">
-                    Komship bagus banget konsepnya, menciptakan kemudahan penjual untuk mengirim barang, apalagi ada fitur COD tanpa harus daftar ribet ke jasa kirim, UI nya juga mudah dipahami untuk pemula
+                    <div class="content text-start">
+                      Alhamdulilah lancar , fiturnya mudah di pahami juga. Apalagi, Kalau ada kendala team Komship siap membantu dan fast respon. Pemakaiannya juga simple, beda sama Aplikasi serupa yang lain.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-2.db7627c.svg" alt="profile" />
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-1.d5e2c77.svg" alt="profile" />
+                      </div>
+                      <span class="name">Mansyur</span>
                     </div>
-                    <span class="name">Nursiswanto</span>
-                  </div>
-                  <div class="content text-start">Komship Mantap👍👍👍 Cashbacknya besar, kalau bisa ditingkatkan lagi. Pencairan setiap hari bikin cash flow aman</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="slick-slide slick-clone">
-          <div>
-            <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
-              <div class="swiper-wrapper">
-                <div class="card carausel__item swiper-slide">
-                  <div class="head">
-                    <div class="profile">
-                      <img src="../assets/testimoni-3.021e242.svg" alt="profile" />
+                    <div class="content text-start">
+                      Komship bagus banget konsepnya, menciptakan kemudahan penjual untuk mengirim barang, apalagi ada fitur COD tanpa harus daftar ribet ke jasa kirim, UI nya juga mudah dipahami untuk pemula
                     </div>
-                    <span class="name">Diki Moh.Ghani</span>
-                  </div>
-                  <div class="content text-start">
-                    Komship lebih easy user, fitur-fiturnya juga bagus, kita bisa tahu secara otomatis CS yang jualannya paling kenceng dan yang paling kurang kenceng.Selain itu juga ada fitur keuangannya jadi sangat membantu banget. Dan
-                    jika ada kendala Tim Supportnya fast respon
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </swiper-slide>
-      ...
-    </swiper>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-2.db7627c.svg" alt="profile" />
+                      </div>
+                      <span class="name">Nursiswanto</span>
+                    </div>
+                    <div class="content text-start">Komship Mantap👍👍👍 Cashbacknya besar, kalau bisa ditingkatkan lagi. Pencairan setiap hari bikin cash flow aman</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-3.021e242.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diki Moh.Ghani</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship lebih easy user, fitur-fiturnya juga bagus, kita bisa tahu secara otomatis CS yang jualannya paling kenceng dan yang paling kurang kenceng.Selain itu juga ada fitur keuangannya jadi sangat membantu banget. Dan
+                      jika ada kendala Tim Supportnya fast respon
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        ...
+      </swiper>
+    </div>
+
+    <div class="mobile">
+      <swiper :slides-per-view="1" :space-between="10" @swiper="onSwiper" @slideChange="onSlideChange">
+        <swiper-slide style="margin-left: 20px">
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-4.dcc0b30.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diky Arliansyah</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship sangat membantu untuk Umkm, merasa terbantu dengan adanya komship, membuat proses input order jadi lebih mudah, apalagi dengan fitur2 komship yg simpel dan mudah dipahami + tentunya dengan cashback 25% 😁
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-6.b41dc9e.svg" alt="profile" />
+                      </div>
+                      <span class="name">Agus David Saputra</span>
+                    </div>
+                    <div class="content text-start">Baru ada platform yang sekeren ini dan sangat menguntungkan bagi kami karena lebih murah biaya CODnya dan cashback super besar, uang bisa cair tiap hari dan mudah dipakainya.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-5.4144a33.svg" alt="profile" />
+                      </div>
+                      <span class="name">Eko sulistiyono</span>
+                    </div>
+                    <div class="content text-start">
+                      Alhamdulilah lancar , fiturnya mudah di pahami juga. Apalagi, Kalau ada kendala team Komship siap membantu dan fast respon. Pemakaiannya juga simple, beda sama Aplikasi serupa yang lain.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-1.d5e2c77.svg" alt="profile" />
+                      </div>
+                      <span class="name">Mansyur</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship bagus banget konsepnya, menciptakan kemudahan penjual untuk mengirim barang, apalagi ada fitur COD tanpa harus daftar ribet ke jasa kirim, UI nya juga mudah dipahami untuk pemula
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-2.db7627c.svg" alt="profile" />
+                      </div>
+                      <span class="name">Nursiswanto</span>
+                    </div>
+                    <div class="content text-start">Komship Mantap👍👍👍 Cashbacknya besar, kalau bisa ditingkatkan lagi. Pencairan setiap hari bikin cash flow aman</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="slick-slide slick-clone" data-aos="slide-left" data-aos-duration="1500">
+            <div>
+              <div class="content-desktop swiper" id="swiper" style="display: inline-block; width: 100%">
+                <div class="swiper-wrapper">
+                  <div class="card carausel__item swiper-slide">
+                    <div class="head">
+                      <div class="profile">
+                        <img src="../assets/testimoni-3.021e242.svg" alt="profile" />
+                      </div>
+                      <span class="name">Diki Moh.Ghani</span>
+                    </div>
+                    <div class="content text-start">
+                      Komship lebih easy user, fitur-fiturnya juga bagus, kita bisa tahu secara otomatis CS yang jualannya paling kenceng dan yang paling kurang kenceng.Selain itu juga ada fitur keuangannya jadi sangat membantu banget. Dan
+                      jika ada kendala Tim Supportnya fast respon
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        ...
+      </swiper>
+    </div>
   </section>
 </template>
 <!-- <script>
@@ -168,6 +427,7 @@ export default {
     Swiper,
     SwiperSlide,
   },
+
   setup() {
     const onSwiper = (swiper) => {
       console.log(swiper);
@@ -430,5 +690,40 @@ h3.title {
   border-radius: 0 0 20px 20px;
   height: 400px;
   cursor: pointer;
+}
+.desktop {
+  display: none;
+}
+.tablet {
+  display: none;
+}
+.mobile {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .mobile {
+    display: unset;
+  }
+  h3.title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: unset;
+  }
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <section id="fitur" class="fitur">
     <div class="container mt-5">
-      <h3 class="text-start" style="font-size: 32px; font-weight: 700">Fitur</h3>
+      <h3 data-aos="fade-up" data-aos-duration="1500" class="text-start" style="font-size: 32px; font-weight: 700">Fitur</h3>
       <div class="d-flex mb-5">
         <button id="div1" class="btn-feature m-2" style="display: block" @click="fiturUnggulan()">Fitur Unggulan</button>
         <button id="div2" class="btn-feature m-2" style="display: block" @click="fiturTambahan()">Fitur Tambahan</button>
       </div>
       <div v-if="fiturUnggulanChecked === true" class="div3" style="display: block">
         <div class="row">
-          <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="col-xl-5 col-lg-5 col-md-5" data-aos="fade-right" data-aos-duration="1500">
             <div>
               <button id="arrow-btn" class="acc-fitur d-flex mb-3" href="#order" @click="fotoOrder()">
                 <div class="subhead-fitur">Input Order Massal</div>
@@ -34,16 +34,22 @@
             </div>
           </div>
           <div class="col-xl-7 col-lg-7 col-md-7">
-            <div v-if="fotoOrderChecked === true" id="order" class="image-fitur-unggulan"><img src="../assets/bg-ordermasal.a94ed88.png" alt="order-masal" /></div>
-            <div v-else-if="fotoDataChecked === true" id="data" class="image-fitur-unggulan" style="display: block"><img src="../assets/bg-dataorder.0c2a4af.png" alt="order-masal" /></div>
-            <div v-else id="kendala" class="image-fitur-unggulan" style="display: block"><img src="../assets/bg-kendala.2e87fd8.png" alt="order-masal" /></div>
+            <div v-if="fotoOrderChecked === true" id="order" class="image-fitur-unggulan" data-aos="zoom-in" data-aos-duration="1500">
+              <img src="../assets/bg-ordermasal.a94ed88.png" alt="order-masal" />
+            </div>
+            <div v-else-if="fotoDataChecked === true" id="data" class="image-fitur-unggulan" style="display: block" data-aos="zoom-in" data-aos-duration="1500">
+              <img src="../assets/bg-dataorder.0c2a4af.png" alt="order-masal" />
+            </div>
+            <div v-else id="kendala" class="image-fitur-unggulan" style="display: block" data-aos="zoom-in" data-aos-duration="1500">
+              <img src="../assets/bg-kendala.2e87fd8.png" alt="order-masal" />
+            </div>
           </div>
         </div>
       </div>
 
       <div v-else id="div4" style="display: block">
         <div class="row">
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="1500">
             <div class="d-flex mb-3">
               <img src="../assets/produk-terlaris.cabbdcc.svg" style="width: 30%" />
               <div class="content text-start">
@@ -71,7 +77,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 image-tambahan">
+          <div class="col-lg-6 image-tambahan" data-aos="zoom-in" data-aos-duration="1500">
             <img src="../assets/bg-newfeature.02a172d.png" alt="fitur" />
           </div>
         </div>
@@ -81,13 +87,13 @@
   <section id="feature-mobile">
     <div class="feature-mobile container mb-5">
       <div class="head-feature-mobile text-center">
-        <h2 class="head-feature" style="font-family: Poppins; font-weight: 700; font-size: 24px; font-weight: 700">Fitur</h2>
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="head-feature" style="font-family: Poppins; font-weight: 700; font-size: 24px; font-weight: 700">Fitur</h2>
       </div>
       <div class="d-flex mb-5">
         <button id="div1" type="button" class="btn-feature m-2" style="display: block" @click="mblUnggulan()">Fitur Unggulan</button>
         <button id="div2" type="button" class="btn-feature px- m-2" style="display: block" @click="mblTambahan()">Fitur Tambahan</button>
       </div>
-      <div v-if="mblUnggulanChecked === true" id="mbl-unggulan" style="display: block">
+      <div data-aos="fade-down" data-aos-duration="1500" v-if="mblUnggulanChecked === true" id="mbl-unggulan" style="display: block">
         <div class="row justify-content-between mb-3">
           <div class="col-6 text-left icon-newfeature">
             <img src="../assets/mbl-order.27cc076.svg" alt="order massal" />
@@ -183,7 +189,7 @@
   <section id="conclusion">
     <div class="container-fluid mt-5" style="background-color: #fafad2">
       <div class="content-daftar">
-        <h3 class="text-center" style="font-size: 32px; font-weight: 700">
+        <h3 class="text-center" style="font-size: 32px; font-weight: 700" data-aos="zoom-in-down" data-aos-duration="1500">
           Percayakan Pengiriman Orderanmu <br />
           Pada Komship!
         </h3>

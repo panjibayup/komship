@@ -1,7 +1,7 @@
 <template>
   <section class="recomend mt-5">
     <div class="container">
-      <h3 class="d-block mb-4 text-center">Rekomendasi Untuk Kamu</h3>
+      <h3 class="d-block mb-4 text-center" data-aos="fade-up" data-aos-duration="1500">Rekomendasi Untuk Kamu</h3>
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-5">
           <div class="card my-2">
@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="col-lg-5 col-md-5 col-sm-10">
+        <div class="col-lg-5 col-md-5 col-sm-10" data-aos="zoom-in-right" data-aos-duration="1500">
           <div class="card my-2">
             <div class="image">
               <img src="../assets/sicepat-counter.png" alt="foto" />
@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="col-lg-5 col-md-5">
+        <div class="col-lg-5 col-md-5" data-aos="zoom-in-right" data-aos-duration="1500">
           <div class="card my-2">
             <div class="image">
               <img src="../assets/idexpress-counter.png" alt="foto" />
@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="col-lg-5 col-md-5">
+        <div class="col-lg-5 col-md-5" data-aos="zoom-in-right" data-aos-duration="1500">
           <div class="card my-2">
             <div class="image">
               <img src="../assets/sap-counter.png" alt="foto" />
